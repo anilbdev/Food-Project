@@ -149,11 +149,13 @@ h3{
     width: 100%;
     margin-bottom: 0px;  
     padding: 0px;
+   
   
 }.meals-showcase li{
     display: block;
     float: left;
     width:25% ;
+    
 }
    
 .meals-photo{
