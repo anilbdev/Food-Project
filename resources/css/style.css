@@ -228,11 +228,44 @@ h3{
     height: 50px;
     width: auto;
     margin-right: 10px;
-}.works-step:last-of-type{
+b}.btn-app:link,
+.btn-app:visited{
+    border: 0;
+}
+
+.works-step:last-of-type{
     margin-bottom: 80px;
 }.section-steps{
     background-color: white;
 
+}.box img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+
+}.city-feature{
+    margin-bottom: 5px;
+}.icon-smal{
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: orange;
+    font-size: 120%;
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+    margin-right: 10px;
+}a:link,
+a:visited{
+    color: orange;
+    text-decoration: none;
+    border-bottom: 1px solid orange;
+    padding-bottom: 1px;
+}a:hover,a:active{
+    color: grey;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom .5s,color .5s;
 }
+
 
 
