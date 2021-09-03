@@ -8,23 +8,58 @@ html{
     background-color:  white;
     color: #555;
     font-family:'Lato', sans-serif ;
-    font-weight: 00;
+    font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
 }
 header{
-    background-image: url('img/hero-img.jpg');
+    background-image:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url('img/hero-img.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }h1{
-    margin: 0%;
-    padding: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 240%;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: normal;
 }.hero-text-box{
     position: absolute;
     width:1140px;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
+}.btn:link,
+.btn:visited{
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-weight: 300;
+    border-radius: 150px;
+    transition: background-color 0.2s,border 0.2s,color 0.2s;
+}.btn-full:link,
+.btn-full:visited{
+    background-color: orange;
+    color: white;
+    border: 1px solid white;
+    margin-right: 25px;
+    
+}.btn-ghost:link,
+.btn-ghost:visited{
+    border: 1px solid orange;
+    color: orange;
+}.btn:hover,
+.btn:active{
+    background-color: rgb(139, 91, 0);
+
+}.btn-ghost:hover,
+.btn-ghost:active{
+    border: 1 px solid orange;
+    color: white;
+}.btn-full:hover,
+.btn-full:active{
+    border: 1 px solid white;
 }
