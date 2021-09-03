@@ -147,17 +147,38 @@ h3{
 .meals-showcase{
     list-style: none;
     width: 100%;
+    margin-bottom: 0px;  
+    padding: 0px;
+  
 }.meals-showcase li{
     display: block;
     float: left;
     width:25% ;
 }
+   
 .meals-photo{
     width: 100%;
     margin: 0;
+    overflow: hidden;
+    background-color: black;
+   
 }
 .meals-photo img{
     width: 100%;
     height: auto;
+    transition: scale(1.15);
+    opacity: 0.7;
 
+
+}.section-meals{
+    padding: 0;
+}.meals-photo img:hover{
+    transform: scale(1.03);
+    opacity: 1;
+    transition: transform 0.5s,opacity .5s;
+
+
+}
+.section-features .long-copy{
+    margin-bottom: 30px;
 }
