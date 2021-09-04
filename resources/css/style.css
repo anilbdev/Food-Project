@@ -309,6 +309,48 @@ blockquote{
     position: absolute;
     top: 3px;
     left: -10px;
+}.section-plans{
+  background-color: #aaaaaa;  
+}.plan-box{
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 5%;
+    width: 90%;
+    
+   
+
+}.plan-box div{
+    padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
+}
+.plan-price{
+    font-size: 300%;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: orange;
+}
+.plan-price-meal{
+    font-size: 90%;
+}
+.plan-price span{
+    font-size: 50%;
+    color: orange;
+
+}.plan-box ul{
+    list-style: none;
+    
+
+}.plan-box ul li{
+    padding: 5px 0;
+
+}.plan-box div:last-child{
+    border: 0px;
+    text-align: center;
+}.plan-box div:first-child{
+    background-color: rgb(247, 243, 243);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+ 
 }
 
 
